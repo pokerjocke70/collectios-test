@@ -8,4 +8,4 @@ atlassian-ide-plugin.xml
 build
 classes
 .idea
-gra
+.gradle
