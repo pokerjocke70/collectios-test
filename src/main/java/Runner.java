@@ -27,7 +27,7 @@ public class Runner {
 
         final Optional<Integer> max = collection.generateList(MAX, new IntegerSupplier()).parallelStream().max(Integer::compareTo);
         long stop = System.currentTimeMillis();
-        System.out.printf("%s : %s - Max = %s -------- Duration %s ms\n", pad(35, Thread.currentThread().getName()), pad(25, collection.getClass().getName()), max.get(), stop - start);
+        System.out.printf("%s : %s - Max = %s -------- Duration %s ms%n", pad(35, Thread.currentThread().getName()), pad(25, collection.getClass().getName()), max.get(), stop - start);
     }
 
 

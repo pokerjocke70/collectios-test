@@ -21,6 +21,7 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.5'
     compile 'com.higherfrequencytrading:chronicle:1.9.1'
     compile 'com.google.guava:guava:17.0'
+    compile 'com.ning:async-http-client:1.8.9'
     compile 'com.goldmansachs:gs-collections:5.0.0'
     testCompile('org.spockframework:spock-core:0.7-groovy-2.0'){
         exclude module: 'groovy-all'
